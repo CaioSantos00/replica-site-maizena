@@ -1,0 +1,137 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+    background-color: #f6efeb;
+}
+
+@font-face {
+    font-family: std;
+    src: url('VivaStd-Condensed.otf');
+    font-weight: 400;
+}
+#component{
+    width: 100%;
+    height: 20px;
+    background-color: #f3b52a;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#component2{
+    width: 100%;
+    height: 3px;
+    background-color: #f3b52a;
+}
+
+#logo{
+    width: 120px;
+}
+
+#header {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 0px;
+    height: 101px;
+}
+
+#header ul{
+    display: flex;
+    margin: 5px;
+}
+
+#header li{
+    font-size: 14px;
+    list-style: none;
+    padding-right: 50px;
+}
+
+#input{
+    margin-left: 20%;
+}
+
+#maizena{
+    padding: 10px;
+    padding-left: 21%;
+    font-size: 10.5px;
+    text-transform: uppercase;
+    background-color: #fffaf8;
+    margin-bottom: 4%;
+}
+
+#section{
+    margin: auto;
+    width: 58%;
+}
+
+#foto{
+    width: 620px;
+}
+
+#container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#box2{
+    padding-left: 85px;
+}
+
+#tituloBolo{
+    margin: 0px;
+    font-size: 2.375em;
+    line-height: 3rem;
+    font-weight: 400;
+    white-space: normal;
+    font-family: std;
+    padding-bottom: 30px;
+}
+
+#text{
+    line-height: 1.5rem;
+    font-size: 0.9em;
+}
+
+#tempo{
+    color: #303030;
+    font-size: 0.6rem;
+}
+
+#im{
+    margin-top: 50px;
+}
+
+#container2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#container2-box1{
+    padding-right: 95px;
+}
+
+
+#container2-box1 hr{
+    margin: 15px 0px;
+}
+
+
+#ingredientes{
+    font-size: 29.75px;
+    font-weight: 400;
+    font-family: std;
+}
+
+#container3-box2 ol{
+    line-height: 3em;
+    padding: 50px 0px;
+}
+
+#imgRece{
+   height: 20px; 
+   padding-right: 600px;
+}
